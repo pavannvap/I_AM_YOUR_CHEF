@@ -11,7 +11,7 @@ app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('API updated and integrated CI/CD...');
+  res.send('API updated and integrated CI/CD...testing');
 });
 
 const PORT = process.env.PORT || 3000;
