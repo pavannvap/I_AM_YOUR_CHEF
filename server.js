@@ -11,7 +11,7 @@ app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) => {
-  res.send('Successfully done CICD.....new test');
+  res.send('Successfully done CICD.....new test new test for uday');
 });
 
 const PORT = process.env.PORT || 3000;
